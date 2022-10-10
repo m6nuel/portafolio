@@ -1,5 +1,5 @@
 import React from 'react'
-import foto from '../recursos/foto.jpg'
+import foto from '../../recursos/foto.jpg'
 
 export const Home = () => {
   return (

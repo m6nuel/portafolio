@@ -17,7 +17,6 @@
   border: 1px solid white;
   border-radius: 10px;
   display: grid;
-  place-content: center;
   min-width: 40%;
 }
 
@@ -28,6 +27,7 @@
   border: 1px solid white;
   border-radius: 10px;
   min-width: 40%;
+  scroll-behavior: smooth;
 }
 
 .cajas {
@@ -53,18 +53,18 @@
 }
 
 .cajas:nth-child(2) {
-  background-color: blueviolet;
+  background-color: rgb(60, 60, 60);
 }
 
 .cajas:nth-child(3) {
-  background-color: rgb(174, 187, 187);
+  background-color: rgb(60, 60, 60);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   overflow-y: visible;
 }
 
 .proyecto {
-  background-color: black;
+  background-color: rgb(60, 60, 60);
   color: aliceblue;
   border-radius: 10px;
   margin: 2vh auto;
