@@ -1,0 +1,12 @@
+
+.content {
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+}
+
+ img{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    place-content: center;
+}

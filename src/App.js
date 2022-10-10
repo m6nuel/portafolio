@@ -3,6 +3,7 @@ import {Contacto} from './components/Contacto'
 import { Proyectos } from './components/Proyectos';
 import { Home } from './components/Home/Home';
 import { NavBar } from './components/NavBar/NavBar';
+import { Tecnologias } from './components/Tecnologias/Tecnologias';
 
 
 
@@ -21,7 +22,7 @@ function App() {
           <Home />
         </div>
         <div className='cajas' id='tecnologias'>
-          <span>Tecnologias usadas</span>
+          <Tecnologias />
         </div>
 
         <div className='cajas' id='proyectos'>
@@ -33,7 +34,7 @@ function App() {
         </div>
       </div>
       <div className='footer'>
-        <h3>Footer</h3>
+        <h3>Jesus M. Delgado S. - 2022</h3>
       </div>
     </div>
   );
