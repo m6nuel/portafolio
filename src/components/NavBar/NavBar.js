@@ -10,10 +10,10 @@ export const NavBar = () => {
     <div className={`${style.navbar}`}>
       {/* <div>portafolio</div> */}
       <div className={`${style.links}`}>
-        <a href='#home'>home </a>
-        <a href='#tecnologias'>tecnologias</a>
-        <a href='#proyectos'>proyectos</a>
-        <a href='#contacto'>contacto</a>
+        <a href='#home'>Home </a>
+        <a href='#tecnologias'>Tecnologias</a>
+        <a href='#proyectos'>Proyectos</a>
+        <a href='#contacto'>Contacto</a>
       </div>
       <div className={`${style.icons}`}>
         <a href='#home'><HomeIcon /> </a>
