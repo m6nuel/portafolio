@@ -8,7 +8,7 @@ import ContactPageIcon from '@mui/icons-material/ContactPage';
 export const NavBar = () => {
   return (
     <div className={`${style.navbar}`}>
-      <div>portafolio</div>
+      {/* <div>portafolio</div> */}
       <div className={`${style.links}`}>
         <a href='#home'>home </a>
         <a href='#tecnologias'>tecnologias</a>

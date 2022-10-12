@@ -28,12 +28,12 @@
   border-radius: 10px;
   min-width: 40%;
   scroll-behavior: smooth;
+  top: 10px;
 }
 
 .cajas {
-  display: grid;
   width: 90%;
-  height: 95%;
+  height: 93%;
   margin: 2vh auto;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   /* border: 1px solid wheat; */
@@ -41,6 +41,8 @@
   min-width: 300px;
   overflow-x: auto;
   place-content: initial;
+  object-fit: cover;
+  /* top: 10px; */
 }
 ::-webkit-scrollbar {
   display: none;
@@ -48,19 +50,16 @@
 
 .cajas:first-child {
   display: grid;
-  grid-row: 1fr 1fr;
   background-color: black;
 }
 
 .cajas:nth-child(2) {
-  display: grid;
-  
-  grid-row: 1fr 1fr 1fr 1fr;
-  
+  display: grid;  
+  place-content: unset;
 }
 
 .cajas:nth-child(3) {
-  /* background-color: rgb(60, 60, 60); */
+  background-color: rgb(60, 60, 60);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   overflow-y: visible;

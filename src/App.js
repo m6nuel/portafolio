@@ -1,9 +1,10 @@
 import './App.css';
-import {Contacto} from './components/Contacto'
+import {Contacto} from './components/Contacto/Contacto'
 import { Proyectos } from './components/Proyectos';
 import { Home } from './components/Home/Home';
 import { NavBar } from './components/NavBar/NavBar';
 import { Tecnologias } from './components/Tecnologias/Tecnologias';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 
 
@@ -21,11 +22,11 @@ function App() {
         <div className='cajas' id='home'>
           <Home />
         </div>
-        <div className='cajas' id='tecnologias'>
+        <div className='cajas' id='tecnologias' >
           <Tecnologias />
         </div>
 
-        <div className='cajas' id='proyectos'>
+        <div className='cajas' id='proyectos' >
           <Proyectos />
         </div>
 

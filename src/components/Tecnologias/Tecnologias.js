@@ -8,7 +8,16 @@ import react from '../../recursos/react.png'
 export const Tecnologias = () => {
   return (
     <>
-    <div className={`${style.content}`}>
+        <div className={`${style.cont}`}>
+            <h2>Tecnologias</h2>
+        </div>
+        <div className={`${style.content}`}>
+            <img alt='css' src={css} />
+            <img alt='js' src={js} />
+            <img alt='node' src={node} />
+            <img alt='react' src={react} />
+        </div>
+    {/* <div className={`${style.content}`}>
         <div className={`${style.tecn}`}>
             <img alt='css' src={css} />
         </div>
@@ -21,7 +30,7 @@ export const Tecnologias = () => {
         <div className={`${style.tecn}`}>
             <img alt='react' src={react} />
         </div>
-    </div>
+    </div> */}
     </>
   )
 }
