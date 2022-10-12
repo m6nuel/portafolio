@@ -4,7 +4,6 @@ import { Proyectos } from './components/Proyectos';
 import { Home } from './components/Home/Home';
 import { NavBar } from './components/NavBar/NavBar';
 import { Tecnologias } from './components/Tecnologias/Tecnologias';
-import { useEffect, useMemo, useRef, useState } from 'react';
 
 
 
