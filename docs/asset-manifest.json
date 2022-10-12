@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21ada5fd.css",
+    "main.js": "/static/js/main.3e20b7b7.js",
+    "static/media/foto.jpg": "/static/media/foto.6e25c0f7f638e97953af.jpg",
+    "static/media/css.png": "/static/media/css.b46fc86b35a4287c6d02.png",
+    "static/media/js.png": "/static/media/js.166865dacb77d214f485.png",
+    "static/media/cvjesus.pdf": "/static/media/cvjesus.e8f9f7d7492c55dd5b43.pdf",
+    "static/media/node.png": "/static/media/node.07d152a8a036951b8d14.png",
+    "static/media/react.png": "/static/media/react.0f0770d11005fa1eadb0.png",
+    "index.html": "/index.html",
+    "main.21ada5fd.css.map": "/static/css/main.21ada5fd.css.map",
+    "main.3e20b7b7.js.map": "/static/js/main.3e20b7b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21ada5fd.css",
+    "static/js/main.3e20b7b7.js"
+  ]
+}
