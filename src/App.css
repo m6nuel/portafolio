@@ -34,7 +34,7 @@
 .cajas {
   width: 90%;
   height: 93%;
-  margin: 2vh auto;
+  margin: 4vh auto;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   /* border: 1px solid wheat; */
   border-radius: 10px;
@@ -49,7 +49,7 @@
 }
 
 .cajas:first-child {
-  display: flex;
+  display: grid;
   background-color: black;
 }
 
@@ -61,8 +61,8 @@
 .cajas:nth-child(3) {
   background-color: rgb(60, 60, 60);
   display: flex;
-  /* flex-direction: row;
-  justify-content: space-evenly; */
+  flex-direction: row;
+  justify-content: flex-start;
   border: 1px solid white;
 }
 

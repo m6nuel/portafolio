@@ -16,10 +16,10 @@ export const NavBar = () => {
         <a href='#contacto'>Contacto</a>
       </div>
       <div className={`${style.icons}`}>
-        <a href='#home'><HomeIcon /> </a>
-        <a href='#tecnologias'><CodeIcon /></a>
-        <a href='#proyectos'><FolderIcon/></a>
-        <a href='#contacto'><ContactPageIcon /></a>
+        <a href='#home'><HomeIcon  sx={{ fontSize: 40 }}/> </a>
+        <a href='#tecnologias'><CodeIcon sx={{ fontSize: 40 }}/></a>
+        <a href='#proyectos'><FolderIcon sx={{ fontSize: 40 }}/></a>
+        <a href='#contacto'><ContactPageIcon sx={{ fontSize: 40 }}/></a>
       </div>
     </div>
   )
