@@ -1,0 +1,12 @@
+.proyecto {
+    border: 1px solid white;
+    height: 60vh;
+    min-width: 60vw;
+    margin: auto 8vw;
+    overflow-y: scroll;
+}
+
+.image {
+    border: 1px solid white;
+    height: 50vh;
+}
